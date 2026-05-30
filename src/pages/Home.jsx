@@ -46,15 +46,16 @@ export default function Home() {
               About me
             </p>
             <h1 className="mt-3 font-display text-4xl leading-tight tracking-tight text-stone-900 sm:text-5xl lg:text-6xl">
-              Technical PM bridging{' '}
+              Bridging the gap between{' '}
               <span className="italic text-amber-900">product</span> and{' '}
               <span className="italic text-amber-900">engineering</span>
             </h1>
 
             <div className="mt-6 space-y-4 text-base leading-relaxed text-stone-600 sm:text-lg">
               <p>
-                I sit at the intersection of product and engineering—translating
-                user needs into actionable backlogs while keeping architecture,
+                As a CS and Business student at the University of Maryland, I 
+                work best at the intersection of product, software, and data. This allows me to
+                translate user needs into actionable backlogs while keeping architecture,
                 scalability, and delivery constraints in view from day one.
               </p>
               <p>

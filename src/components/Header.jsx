@@ -17,7 +17,7 @@ export default function Header() {
             Prachi Wadhwani
           </span>
           <span className="mt-0.5 block text-xs font-medium tracking-wide text-stone-500 group-hover:text-amber-800">
-            Technical Product Owner
+            Product & Strategy Consultant
           </span>
         </NavLink>
         <ul className="flex items-center gap-2 sm:gap-4">
