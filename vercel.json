@@ -1,5 +1,6 @@
-cat > vercel.json << 'EOF'
 {
+  "framework": "vite",
   "buildCommand": "npm install --include=dev && npx vite build",
-  "installCommand": "echo skip"
+  "outputDirectory": "dist",
+  "installCommand": "npm install --include=dev"
 }
