@@ -1,9 +1,9 @@
 import NavButton from '../components/NavButton'
 
-const LINKEDIN_URL = 'https://linkedin.com/in/YOUR_USERNAME'
-const RESUME_URL = 'https://YOUR_RESUME_LINK'
-const EMAIL = 'YOUR_EMAIL@gmail.com'
-const GITHUB_URL = 'https://github.com/YOUR_USERNAME'
+const LINKEDIN_URL = 'https://www.linkedin.com/in/prachi-wadhwani-230660232/'
+const RESUME_URL = 'https://docs.google.com/document/d/1N7BZ-Uiq3ItrhndhAW-2U8JSedGyylmaxfh6lN857is/edit?usp=sharing'
+const EMAIL = 'prachiwadhwani1270@gmail.com'
+const GITHUB_URL = 'https://github.com/prachi-wadh-120'
 
 export default function Home() {
   return (

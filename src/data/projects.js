@@ -1,8 +1,9 @@
 export const projects = [
   {
-    slug: 'SSL Project - Electra',
-    title: 'SSL Project - Electra',
-    summary: 'Our Low-Cost Parallel Scintllation Radiation Detection Device',
+    slug: 'Electra',
+    title: 'Electra',
+    image: "/images/electra.jpg.jpg",
+    summary: 'A Low-Cost Parallel Scintllation Radiation Detection Device',
     description:
       "We are building a low-cost radiation detection device that can be used to detect and measure the amount of muons in the atmosphere across a 2-hour high-altitude balloon flight. " +
       "As head software developer, I developed the algorithm that would run the electronics via C, and co-developed the LLM models in Python to identify trends and anomalies in 1M+ telmetry data points. " +
@@ -12,20 +13,23 @@ export const projects = [
     productUrl: 'https://arc.aiaa.org/',
   },
   {
-    slug: 'project-two',
-    title: 'Project Two',
-    summary: 'Placeholder for a platform or internal tooling effort.',
+    slug: 'Muse',
+    title: 'Muse',
+    summary: 'Find some new artists to listen to using an AI music recommendation app!',
     description:
       'Use this page for a platform, tooling, or infrastructure project. Highlight how you balanced user needs with engineering constraints.',
     caseStudyUrl: 'https://www.google.com',
     productUrl: 'https://www.amazon.com',
   },
   {
-    slug: 'project-three',
-    title: 'Project Three',
-    summary: 'Placeholder for a cross-functional launch or experiment.',
+    slug: 'BrokeNoMore.ai',
+    title: 'BrokeNoMore.ai',
+    summary: 'Coming Soon - Gamifying budgetting for Gen-Z by tracking receipts and rewarding reaching budget goals',
     description:
-      'Ideal for a launch, experiment, or 0→1 initiative. Add metrics, screenshots, and your role across product and engineering.',
+      "Budgetting can be so tedious, yet so necessary. BrokeNoMore.ai uses your details and needs to create a budget " + 
+      "that works for you! Track your spending by scanning receipts and the app will provide insights into what's worth the money and what" +
+      " to cut out. If you manage to save more than expected for the week, the remaining money goes into fun jars for future trips or can be" +
+      " rewarded as a sweet treat!",
     caseStudyUrl: 'https://www.google.com',
     productUrl: 'https://www.amazon.com',
   },
