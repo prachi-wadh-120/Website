@@ -15,7 +15,7 @@ export const projects = [
   {
     slug: 'Muse',
     title: 'Muse',
-    summary: 'Find some new artists to listen to using an AI music recommendation app!',
+    summary: 'Coming soon - Find some new artists to listen to using an AI music recommendation app!',
     description:
       'Use this page for a platform, tooling, or infrastructure project. Highlight how you balanced user needs with engineering constraints.',
     caseStudyUrl: 'https://www.google.com',
