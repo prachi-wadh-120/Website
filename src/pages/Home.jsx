@@ -1,7 +1,8 @@
 import NavButton from '../components/NavButton'
+import TypingRoles from '../components/TypingRoles'
 
 const LINKEDIN_URL = 'https://www.linkedin.com/in/prachi-wadhwani-230660232/'
-const RESUME_URL = 'https://docs.google.com/document/d/1N7BZ-Uiq3ItrhndhAW-2U8JSedGyylmaxfh6lN857is/edit?usp=sharing'
+const RESUME_URL = 'https://drive.google.com/file/d/119DZ0ibEmjwvmi4CSlkZFTi8RS_JJOR-/view?usp=sharing'
 const EMAIL = 'prachiwadhwani1270@gmail.com'
 const GITHUB_URL = 'https://github.com/prachi-wadh-120'
 
@@ -9,7 +10,7 @@ export default function Home() {
   return (
     <div className="relative flex h-full items-center overflow-hidden px-6 sm:px-10 lg:px-16">
       <div
-        className="pointer-events-none absolute -right-32 top-1/4 h-96 w-96 rounded-full bg-amber-200/40 blur-3xl"
+        className="pointer-events-none absolute -right-32 top-1/4 h-96 w-96 rounded-full bg-[#FFC5D3]/40 blur-3xl"
         aria-hidden
       />
       <div
@@ -19,26 +20,21 @@ export default function Home() {
 
       <div className="mx-auto w-full max-w-6xl">
         <div className="mx-auto max-w-3xl text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-amber-800">
-            About me
-          </p>
+        <p className="text-sm font-semibold uppercase tracking-[0.2em] text-brand-plum"> About me </p>
           <h1 className="mt-3 font-display text-4xl leading-tight tracking-tight text-stone-900 sm:text-5xl lg:text-6xl">
-            Bridging the gap between{' '}
-            <span className="italic text-amber-900">product</span> and{' '}
-            <span className="italic text-amber-900">engineering</span>
+            I'm a <TypingRoles />
           </h1>
 
           <div className="mt-6 space-y-4 text-base leading-relaxed text-stone-600 sm:text-lg">
             <p>
-              As a CS and Business student at the University of Maryland, I
+              As a Computer Science student at the University of Maryland, I
               work best at the intersection of product, software, and data. This allows me to
-              translate user needs into actionable backlogs while keeping architecture,
-              scalability, and delivery constraints in view from day one.
+              translate user needs into actionable insights while keeping
+              scalability, elasticity, and delivery constraints in view from day one.
             </p>
             <p>
               My background spans roadmap ownership, cross-functional
-              leadership, and hands-on collaboration with engineering on
-              specs, spikes, and launch readiness.
+              leadership, cloud/software architecture, and data analysis with a focus on AI.
             </p>
           </div>
         </div>
