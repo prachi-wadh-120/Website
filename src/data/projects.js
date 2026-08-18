@@ -32,22 +32,6 @@ export const projects = [
       { value: 'Live', label: 'product demo' },
     ],
   },
-  {
-    slug: 'BrokeNoMore.ai',
-    title: 'BrokeNoMore.ai',
-    category: 'Mobile App',
-    summary:
-      'Coming Soon - Gamifying budgetting for Gen-Z by tracking receipts and rewarding reaching budget goals',
-    description:
-      "Budgetting can be so tedious, yet so necessary. BrokeNoMore.ai uses your details and needs to create a budget that works for you! Track your spending by scanning receipts and the app will provide insights into what's worth the money and what to cut out. If you manage to save more than expected for the week, the remaining money goes into fun jars for future trips or can be rewarded as a sweet treat!",
-    caseStudyUrl: 'https://www.google.com',
-    productUrl: 'https://www.amazon.com',
-    stats: [
-      { value: 'Soon', label: 'launch date' },
-      { value: 'Gen-Z', label: 'target audience' },
-      { value: 'Receipt', label: 'scan tracking' },
-    ],
-  },
 ]
 
 export function getProjectBySlug(slug) {
