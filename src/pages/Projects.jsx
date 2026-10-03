@@ -82,11 +82,11 @@ export default function Projects() {
                   <img
                     src={project.image}
                     alt={`${project.title} preview`}
-                    className="aspect-[4/3] w-full max-w-xl rounded-2xl bg-white object-cover object-top shadow-[0_20px_50px_-12px_rgba(15,23,42,0.18)]"
+                    className="aspect-video w-full max-w-2xl rounded-2xl bg-white object-cover object-top shadow-[0_20px_50px_-12px_rgba(15,23,42,0.18)]"
                   />
                 ) : (
                   <div
-                    className="aspect-[4/3] w-full max-w-xl rounded-2xl bg-white shadow-[0_20px_50px_-12px_rgba(15,23,42,0.18)]"
+                    className="aspect-video w-full max-w-2xl rounded-2xl bg-white shadow-[0_20px_50px_-12px_rgba(15,23,42,0.18)]"
                     aria-hidden
                   />
                 )}

@@ -21,24 +21,6 @@ const identity = [
   },
 ]
 
-const beyondRoadmap = [
-  {
-    kicker: 'Atmosphere',
-    title: 'Hardware that leaves the lab',
-    body: 'Electra is a low-cost muon detector flown on a high-altitude balloon with the Maryland Space Grant Consortium and UMD Space Systems Lab. Science, constraints, and a three-hour flight window.',
-  },
-  {
-    kicker: 'Taste',
-    title: 'Recommendations with a point of view',
-    body: 'Muse is an AI music product built to surface niche artists — not the same ten names everyone already knows. Preference, listening history, and a live demo.',
-  },
-  {
-    kicker: 'Off-path',
-    title: 'Questions before tickets',
-    body: 'Some of the work that shapes how I think never starts as a roadmap item. Experiments, papers, and builds that earn their way onto one.',
-  },
-]
-
 export default function Home() {
   return (
     <div className="h-full overflow-y-auto">
@@ -118,79 +100,6 @@ export default function Home() {
             </svg>
           </a>
         </div>
-
-        <section className="mt-24" aria-labelledby="who-am-i-heading">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#985f6f]">
-            Who am I?
-          </p>
-          <h2
-            id="who-am-i-heading"
-            className="mt-3 font-display text-3xl tracking-tight text-stone-900 sm:text-4xl"
-          >
-            A CS student who treats product, software, and data as one craft.
-          </h2>
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone-600 sm:text-lg">
-            I am most useful in the messy middle: translating what people need into
-            something a team can actually ship, without pretending scale, time, or
-            architecture away.
-          </p>
-
-          <div className="mt-10 grid gap-6 md:grid-cols-3">
-            {identity.map((item) => (
-              <article
-                key={item.title}
-                className="rounded-3xl bg-stone-200/40 p-7 sm:p-8"
-              >
-                <h3 className="font-display text-2xl tracking-tight text-stone-900">
-                  {item.title}
-                </h3>
-                <p className="mt-3 text-[15px] leading-7 text-stone-600">
-                  {item.body}
-                </p>
-              </article>
-            ))}
-          </div>
-        </section>
-
-        <section className="mt-24" aria-labelledby="beyond-heading">
-          <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[#985f6f]">
-            Beyond the roadmap
-          </p>
-          <h2
-            id="beyond-heading"
-            className="mt-3 font-display text-3xl tracking-tight text-stone-900 sm:text-4xl"
-          >
-            The work that never starts as a ticket.
-          </h2>
-          <p className="mt-4 max-w-2xl text-base leading-relaxed text-stone-600 sm:text-lg">
-            Some of the projects that shape how I think live off the critical path —
-            balloon science, niche music discovery, and experiments that earn their
-            way onto a plan.
-          </p>
-
-          <div className="mt-10 overflow-hidden rounded-3xl bg-stone-200/40">
-            {beyondRoadmap.map((item, index) => (
-              <article
-                key={item.title}
-                className={`grid gap-3 px-7 py-8 sm:px-10 sm:py-10 lg:grid-cols-[8rem_1fr] lg:gap-10 ${
-                  index > 0 ? 'border-t border-stone-300/60' : ''
-                }`}
-              >
-                <p className="text-[11px] font-semibold uppercase tracking-[0.12em] text-stone-500">
-                  {item.kicker}
-                </p>
-                <div>
-                  <h3 className="font-display text-2xl tracking-tight text-stone-900">
-                    {item.title}
-                  </h3>
-                  <p className="mt-3 max-w-2xl text-[15px] leading-7 text-stone-600">
-                    {item.body}
-                  </p>
-                </div>
-              </article>
-            ))}
-          </div>
-        </section>
       </div>
       </div>
     </div>
