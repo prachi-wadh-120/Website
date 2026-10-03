@@ -43,9 +43,9 @@ export const projects = [
     caseStudyUrl: 'https://www.figma.com/proto/E5k6pb8SAlM9TZDkj8p8Sk/Lumos-Design?node-id=0-1&t=hjsh1mykE8KFRTto-1',
     productUrl: '',
     stats: [
-      { value: 'AI', label: 'recommendations' },
-      { value: 'Niche', label: 'artist discovery' },
-      { value: 'Live', label: 'product demo' },
+      { value: 'Gen-Z', label: 'Journalling' },
+      { value: '2', label: 'Ways to Write' },
+      { value: 'RAG', label: 'Integration' },
     ],
   },
 ]
